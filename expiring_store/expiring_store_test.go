@@ -54,3 +54,10 @@ func TestExpiring(t *testing.T) {
 		t.Errorf("Value should have expired! %s %s", val, stat)
 	}
 }
+
+func TestAccessingNilEntry(t *testing.T) {
+	val, stat := es.Get("foo")
+	if val != "" || stat {
+		t.Errorf("Value should be empty and status false %s %s", val, stat)
+	}
+}
