@@ -1,1 +1,1 @@
-Temproary  pasta :spaghetti:
+Ephemeral (copy) pasta :spaghetti:
