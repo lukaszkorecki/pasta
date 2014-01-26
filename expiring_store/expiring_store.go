@@ -11,7 +11,7 @@ import (
 
 var (
 	sha               = sha1.New()
-	defaultExpiryTime = int64(15 * t.Minute)
+	defaultExpiryTime = int64(5 * t.Minute)
 )
 
 type ExpiringStore struct {
