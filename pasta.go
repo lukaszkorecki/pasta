@@ -1,14 +1,13 @@
 package main
 
 import (
-	"github.com/codegangsta/martini" // DEP
 	"fmt"
+	"github.com/codegangsta/martini" // DEP
 )
 
 var (
 	version string
 )
-
 
 func main() {
 	m := martini.Classic()
